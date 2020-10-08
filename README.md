@@ -7,8 +7,8 @@
 
 ```bash
 # Run in Docker
-docker build -t dockerRepository/dockernodemongodb:tag .
-docker push dockerRepository/dockernodemongodb:tag
+docker build -t <dockerRepository>/dockernodemongodb:<tag> .
+docker push <dockerRepository>/dockernodemongodb:<tag>
 
 # install MongoDB
 helm repo add bitnami https://charts.bitnami.com/bitnami
