@@ -13,7 +13,7 @@ helm repo add bitnami https://charts.bitnami.com/bitnami
 helm install my-release bitnami/mongodb
 
 # install dockernodemongodb
-helm upgrade --install --namespace default dockernodemongodb ./dockernodemongodb/
+helm upgrade --install --namespace default dockernodemongodb ./charts/
 
 # port forwarding
 kubectl port-forward <pod name> 8080:3000 
